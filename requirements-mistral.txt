@@ -1,0 +1,4 @@
+mistralai==0.0.10
+supabase==2.3.4
+python-dotenv==1.0.0
+httpx==0.25.2 

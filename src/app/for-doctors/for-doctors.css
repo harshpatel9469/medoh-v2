@@ -1,0 +1,72 @@
+.for-doctors-page {
+  position: relative;
+  background-image: url(../../../public/hero-bg.png) !important;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 170px 30px 170px 30px;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Image container styles for better responsiveness */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  max-height: 600px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.image-container img {
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 991px) {
+  .for-doctors-page {
+    padding: 70px 15px 60px 15px;
+  }
+
+  .image-container {
+    height: 300px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-container {
+    height: 250px;
+  }
+}
+
+.hero-abs {
+  position: absolute;
+  left: 0;
+  top: 200px;
+}
+
+.hero-bg-img,
+.sec-img {
+  transition: 0.5s;
+
+}
+
+.hero-bg-img:hover,
+.sec-img:hover {
+  transform: scale(1.1);
+}
+
+.hero-bg-img:hover {
+  z-index: -1;
+}
+
+.sec-img {
+  z-index: 9999;
+
+}

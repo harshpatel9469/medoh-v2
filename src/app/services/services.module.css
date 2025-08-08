@@ -1,0 +1,1015 @@
+.heroSection {
+  position: relative;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 170px 30px 70px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../../../public/hero-bg.png) !important;
+}
+
+.sectionContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 100px 30px;
+  background-color: #FFF;
+
+}
+
+
+.heroTitle {
+  line-height: 1.2;
+
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.orangeHighlight {
+  color: #FA852F;
+}
+
+.heroText {
+  font-size: 20px;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.cardImageWrapper {
+  width: 100%;
+  height: 220px;
+  position: relative;
+}
+
+.cardImage {
+  object-fit: cover;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.partnersSection {
+  background: linear-gradient(299.35deg, rgba(255, 236, 210, 0.2) 0%, rgba(252, 182, 159, 0.2) 99.99%);
+  padding: 100px 30px;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px 0 #0001;
+}
+
+.partnersTitle {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.partnerLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.partnerLogo {
+  max-height: 56px;
+  max-width: 240px;
+  object-fit: contain;
+  filter: grayscale(0.2);
+  transition: filter 0.2s;
+}
+
+.partnerLogo:hover {
+  filter: grayscale(0) drop-shadow(0 2px 8px #fa852f33);
+}
+
+
+.rounded-right-corners {
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+
+.patient-education-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+
+}
+
+.patient-education-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Patient Education Component Styles */
+.patientEducation {
+  background: #fff;
+  padding: 100px 0px;
+}
+
+.comparisonCard {
+  border: none;
+  border-radius: 16px;
+  background-color: #FFF7ED;
+  padding: 20px;
+}
+
+.comparisonCard:hover {}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+/* Benefits List */
+.benefitsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.benefitItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.benefitIcon {
+  color: #FA852F;
+  font-size: 1.5rem;
+}
+
+.benefitText {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Drawbacks List */
+.drawbacksList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.drawbackItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.drawbackIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+  position: relative;
+}
+
+.drawbackIconX {
+  background: #dc3545;
+  color: white;
+}
+
+.drawbackIconMixed {
+  background: #007bff;
+  color: white;
+  position: relative;
+}
+
+.checkIcon {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 0.8rem;
+}
+
+.xIcon {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 0.8rem;
+}
+
+.sizeLabel {
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  font-size: 0.6rem;
+  background: white;
+  color: #007bff;
+  padding: 1px 2px;
+  border-radius: 2px;
+  border: 1px solid #007bff;
+}
+
+.drawbackText {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Visual Representations */
+.visualRepresentation {
+  margin-top: 2rem;
+}
+
+/* Medoh Laptop Interface */
+.laptopContainer {
+  background: #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.laptopScreen {
+  background: white;
+  border-radius: 4px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.phoneInterface {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.videoContainer {
+  flex: 1;
+}
+
+.doctorVideo {
+  background: #f0f0f0;
+  border-radius: 8px;
+  height: 120px;
+  margin-bottom: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.doctorAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #FA852F;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.videoContent {
+  text-align: center;
+}
+
+.videoTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.25rem;
+}
+
+.videoSubtitle {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0;
+}
+
+.sideGraphics {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 60px;
+}
+
+.graphicItem {
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 0.5rem;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tennisPlayer {
+  width: 20px;
+  height: 20px;
+  background: #FA852F;
+  border-radius: 50%;
+  margin-bottom: 0.25rem;
+}
+
+.armDiagram {
+  width: 20px;
+  height: 20px;
+  background: #FA852F;
+  border-radius: 2px;
+  margin-bottom: 0.25rem;
+}
+
+.percentage {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #FA852F;
+}
+
+.arrowText {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Traditional Scene */
+.traditionalScene {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.doctorPatientInteraction {
+  position: relative;
+  height: 200px;
+}
+
+.doctorFigure {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.doctorAvatarTraditional {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.labCoat {
+  width: 40px;
+  height: 60px;
+  background: white;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.patientFigure {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.patientAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.glasses {
+  width: 30px;
+  height: 8px;
+  background: #333;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.brochure {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 60px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .benefitText,
+  .drawbackText {
+    font-size: 0.9rem;
+
+  }
+
+  .phoneInterface {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sideGraphics {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+/* Sign Up Form Component Styles */
+.signupSection {
+  padding: 4rem 0;
+  background: #ffdecf;
+}
+
+.signupCard {
+  background: white;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  margin-top: 30px !important;
+}
+
+.signupTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.signup-title .highlight {
+  color: #FA852F;
+}
+
+.signup-subtitle {
+  font-size: 18px;
+  color: #000;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-input,
+.form-textarea {
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #FA852F;
+  box-shadow: 0 0 0 3px rgba(250, 133, 47, 0.1);
+  outline: none;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.signup-button {
+  background: #FA852F;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.signup-button:hover {
+  background: #e25c00;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(250, 133, 47, 0.3);
+}
+
+.signup-button:focus {
+  background: #FA852F;
+  box-shadow: 0 0 0 3px rgba(250, 133, 47, 0.25);
+}
+
+@media (max-width: 768px) {
+  .signup-title {
+    font-size: 2rem;
+  }
+
+  .signup-subtitle {
+    font-size: 1rem;
+  }
+
+  .signup-card .card-body {
+    padding: 2rem !important;
+  }
+}
+
+/* Comprehensive Responsive Styles for Services Page */
+@media (max-width: 1200px) {
+
+  .heroTitle {
+    font-size: 2.2rem;
+  }
+
+  .heroText {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 992px) {
+
+
+
+  .heroTitle {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .heroText {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+
+
+
+
+  .partnerLogos {
+    gap: 1.5rem;
+  }
+
+  .partnerLogo {
+    max-width: 200px;
+    max-height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionContainer {
+    padding: 50px 15px;
+  }
+
+  .heroSection {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .heroTitle {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+
+  .heroText {
+    font-size: 0.95rem;
+  }
+
+
+
+  .partnersTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .partnerLogos {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .partnerLogo {
+    max-width: 150px;
+    max-height: 40px;
+  }
+
+  .patientEducation {
+    padding: 50px 0px;
+  }
+
+  .comparisonCard {
+    margin-bottom: 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .benefitText,
+  .drawbackText {
+    font-size: 0.9rem;
+  }
+
+  .phoneInterface {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sideGraphics {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .laptopContainer {
+    padding: 0.5rem;
+  }
+
+  .laptopScreen {
+    padding: 0.5rem;
+    max-width: 250px;
+  }
+
+  .doctorVideo {
+    height: 100px;
+  }
+
+  .traditionalScene {
+    padding: 1rem;
+  }
+
+  .doctorPatientInteraction {
+    height: 150px;
+  }
+
+  .doctorFigure {
+    left: 15%;
+  }
+
+  .patientFigure {
+    right: 15%;
+  }
+
+  .doctorAvatarTraditional {
+    width: 50px;
+    height: 50px;
+  }
+
+  .patientAvatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .labCoat {
+    width: 35px;
+    height: 50px;
+  }
+
+  .glasses {
+    width: 25px;
+    height: 6px;
+  }
+
+  .brochure {
+    width: 35px;
+    height: 50px;
+  }
+
+  .signupSection {
+    padding: 2rem 0;
+  }
+
+  .signupTitle {
+    font-size: 1.8rem;
+  }
+
+  .signup-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .signupCard .card-body {
+    padding: 1.5rem !important;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 0.9rem;
+    padding: 10px 12px;
+  }
+
+  .signup-button {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+}
+
+@media (max-width: 576px) {
+
+
+  .heroSection {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .heroTitle {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+
+  .heroText {
+    font-size: 0.9rem;
+  }
+
+  .partnersSection {
+    padding: 50px 15px;
+  }
+
+  .partnersTitle {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .partnerLogos {
+    gap: 0.8rem;
+  }
+
+  .partnerLogo {
+    max-width: 120px;
+    max-height: 35px;
+  }
+
+
+  .sectionTitle {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .benefitText,
+  .drawbackText {
+    font-size: 0.85rem;
+  }
+
+  .benefitIcon {
+    font-size: 1.2rem;
+  }
+
+  .laptopContainer {
+    padding: 0.3rem;
+  }
+
+  .laptopScreen {
+    padding: 0.3rem;
+    max-width: 200px;
+  }
+
+  .doctorVideo {
+    height: 80px;
+  }
+
+  .videoTitle {
+    font-size: 0.8rem;
+  }
+
+  .videoSubtitle {
+    font-size: 0.7rem;
+  }
+
+  .sideGraphics {
+    width: 50px;
+  }
+
+  .graphicItem {
+    height: 40px;
+    padding: 0.3rem;
+  }
+
+  .tennisPlayer,
+  .armDiagram {
+    width: 15px;
+    height: 15px;
+  }
+
+  .percentage {
+    font-size: 0.6rem;
+  }
+
+  .arrowText {
+    font-size: 0.7rem;
+  }
+
+  .traditionalScene {
+    padding: 0.8rem;
+  }
+
+  .doctorPatientInteraction {
+    height: 120px;
+  }
+
+  .doctorFigure {
+    left: 10%;
+  }
+
+  .patientFigure {
+    right: 10%;
+  }
+
+  .doctorAvatarTraditional {
+    width: 40px;
+    height: 40px;
+  }
+
+  .patientAvatar {
+    width: 35px;
+    height: 35px;
+  }
+
+  .labCoat {
+    width: 30px;
+    height: 45px;
+  }
+
+  .glasses {
+    width: 20px;
+    height: 5px;
+  }
+
+  .brochure {
+    width: 30px;
+    height: 45px;
+  }
+
+  .signupSection {
+    padding: 1.5rem 0;
+  }
+
+  .signupTitle {
+    font-size: 1.5rem;
+  }
+
+  .signup-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .signupCard .card-body {
+    padding: 1rem !important;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 0.85rem;
+    padding: 8px 10px;
+  }
+
+  .signup-button {
+    font-size: 0.85rem;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroTitle {
+    font-size: 1.4rem;
+  }
+
+  .heroText {
+    font-size: 0.85rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.2rem;
+  }
+
+  .benefitText,
+  .drawbackText {
+    font-size: 0.8rem;
+  }
+
+  .laptopScreen {
+    max-width: 180px;
+  }
+
+  .doctorVideo {
+    height: 70px;
+  }
+
+  .sideGraphics {
+    width: 45px;
+  }
+
+  .graphicItem {
+    height: 35px;
+  }
+
+  .tennisPlayer,
+  .armDiagram {
+    width: 12px;
+    height: 12px;
+  }
+
+  .percentage {
+    font-size: 0.55rem;
+  }
+
+  .arrowText {
+    font-size: 0.65rem;
+  }
+
+  .doctorPatientInteraction {
+    height: 100px;
+  }
+
+  .doctorFigure {
+    left: 5%;
+  }
+
+  .patientFigure {
+    right: 5%;
+  }
+
+  .doctorAvatarTraditional {
+    width: 35px;
+    height: 35px;
+  }
+
+  .patientAvatar {
+    width: 30px;
+    height: 30px;
+  }
+
+  .labCoat {
+    width: 25px;
+    height: 40px;
+  }
+
+  .glasses {
+    width: 18px;
+    height: 4px;
+  }
+
+  .brochure {
+    width: 25px;
+    height: 40px;
+  }
+
+  .signupTitle {
+    font-size: 1.3rem;
+  }
+
+  .signup-subtitle {
+    font-size: 0.8rem;
+  }
+}
+
+/* Landscape orientation adjustments for mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+
+
+  .heroTitle {
+    font-size: 1.5rem;
+  }
+
+  .heroText {
+    font-size: 0.9rem;
+  }
+
+
+  .signupSection {
+    padding: 1rem 0;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .partnerLogo {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Print styles */
+@media print {
+
+  .heroSection,
+  .partnersSection,
+  .signupSection {
+    background: white !important;
+  }
+
+  .comparisonCard {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+
+  .signupCard {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+}
