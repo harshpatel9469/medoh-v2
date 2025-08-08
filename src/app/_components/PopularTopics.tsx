@@ -72,9 +72,9 @@ const PopularTopics = (props: PopularTopicsProps) => {
               <button
                 key={index}
                 className={`category-btn ${
-                  activeCategory === cat ? "active" : ""
+                  activeCategory === cat.name ? "active" : ""
                 }`}
-                onClick={() => setActiveCategory(cat)}
+                onClick={() => setActiveCategory(cat?.name)}
               >
                 {cat?.name}
               </button>
