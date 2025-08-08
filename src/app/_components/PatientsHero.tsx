@@ -63,7 +63,7 @@ export const PatientsHero = () => {
                   />
                 </div>
               )} 
-              <div onClick={() => handleKeyPress()}>
+              <div>
                 <IoSearch className="search-icon" />
               </div>
             </div>
