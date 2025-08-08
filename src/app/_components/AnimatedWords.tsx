@@ -2,10 +2,22 @@
 import React, { useEffect, useState } from "react";
 import "./AnimatedWords.css";
 
-const AnimatedWords = ({ label = "", words = [], colors = [] }) => {
-  const [currentWord, setCurrentWord] = useState(0);
+interface AnimatedWordsProps {
+  label?: string;
+  words: string[];
+  colors?: string[];
+}
+
+const AnimatedWords: React.FC<AnimatedWordsProps> = ({
+  label = "",
+  words = [],
+  colors = [],
+}) => {
+  const [currentWord, setCurrentWord] = useState<number>(0);
 
   useEffect(() => {
+    if (words.length === 0) return;
+
     const interval = setInterval(() => {
       setCurrentWord((prev) => (prev + 1) % words.length);
     }, 4000);
