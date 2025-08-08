@@ -1,6 +1,6 @@
+
 import React from "react";
 import "./components.css";
-import { Col, Container, Row } from "react-bootstrap";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import Link from "next/link";
