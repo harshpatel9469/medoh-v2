@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { BsXLg } from "react-icons/bs";
 import styles from "./services.module.css";
+import AnimatedWords from "../_components/AnimatedWords";
 
 const PatientEducation = () => {
   const medohBenefits = [
@@ -24,17 +25,24 @@ const PatientEducation = () => {
 
   return (
     <section className={styles.patientEducation}>
-      <div className="px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="mb-10">
           <h2 className="text-center section-title !p-0 !m-0">
             Modern Patient Education is
           </h2>
-          <h2
-            className="text-center section-title !p-0 !m-0"
-            style={{ color: "#f97316" }}
-          >
-            made for the patient.
-          </h2>
+          <div className="text-center animated-title !p-0 !m-0">
+            <AnimatedWords
+              words={[
+                "made for the patient.",
+                "modern.",
+                "to the point.",
+                "insightful.",
+                "engaging.",
+                "personalized.",
+                "medoh.",
+              ]}
+            />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

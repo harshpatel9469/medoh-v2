@@ -39,7 +39,7 @@ interface User {
 }
 
 export default function HomePage() {
-  const router = useRouter()
+  const router = useRouter();
   const [user, setUser] = useState<User | null>(null);
   const [authUser, setAuthUser] = useState<any>(null);
   const [loading, setLoading] = useState(true);
@@ -655,7 +655,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="mx-4 space-y-8">
+    <div className="lg:mx-4 space-y-8">
       {/* Welcome Section */}
       <div className="welcome-section">
         <div>
@@ -844,9 +844,13 @@ export default function HomePage() {
           <div className="faq-main-box">
             {relevantQuestions.length > 0
               ? relevantQuestions.map((question: any, index: number) => (
-                  <a key={index} className="block" onClick={()=>{
-                    router.push(`/dashboard/question/${question.id}`)
-                  }}>
+                  <a
+                    key={index}
+                    className="block"
+                    onClick={() => {
+                      router.push(`/dashboard/question/${question.id}`);
+                    }}
+                  >
                     <div className="faq-box flex flex-col justify-between">
                       <h2>{question.question_text}</h2>
 

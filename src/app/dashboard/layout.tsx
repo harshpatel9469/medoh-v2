@@ -188,7 +188,7 @@ export default async function Layout({
       <div className={`${hideSidebar ? "invisible" : "visible"} flex-shrink-0`}>
         <SideBar />
       </div>
-      <div className="flex-grow p-6 md:overflow-y-auto  bg-gradient-to-b from-gray-100 to-gray-50 ">
+      <div className="flex-grow p-6 pt-20 md:pt-6 md:overflow-y-auto  bg-gradient-to-b from-gray-100 to-gray-50 ">
         {children}
       </div>
     </div>

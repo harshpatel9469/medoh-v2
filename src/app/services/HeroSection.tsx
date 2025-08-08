@@ -7,7 +7,7 @@ import styles from "./services.module.css";
 export default function HeroSection() {
   return (
     <section className={styles.heroSection}>
-      <div className="flex flex-col lg:flex-row items-center gap-y-8 gap-5">
+      <div className="flex flex-col lg:flex-row items-center gap-y-8 gap-5 lg:gap-14">
         <div className="w-full lg:w-5/12 flex justify-center">
           <Image
             src="/poster3.png"

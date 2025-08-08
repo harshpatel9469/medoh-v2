@@ -48,23 +48,25 @@ const HowMedohWorksDR = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-        {features.map((feature:any) => (
+        {features.map((feature: any) => (
           <div key={feature.id}>
-            <div className="feature-card h-full">
-              <div className="text-center p-0">
-                <div className="feature-icon-container mb-3">
-                  <div className="feature-icon-circle">
-                    <Image
-                      height={50}
-                      width={50}
-                      alt=""
-                      src={feature.icon}
-                      className="img-fluid"
-                    />
+            <div className="feature-card-main-box h-full">
+              <div className="feature-card ">
+                <div className="text-center p-0">
+                  <div className="feature-icon-container mb-3">
+                    <div className="feature-icon-circle">
+                      <Image
+                        height={50}
+                        width={50}
+                        alt=""
+                        src={feature.icon}
+                        className="img-fluid"
+                      />
+                    </div>
                   </div>
+                  <h3 className="feature-title mb-3">{feature.title}</h3>
+                  <p className="feature-description">{feature.description}</p>
                 </div>
-                <h3 className="feature-title mb-3">{feature.title}</h3>
-                <p className="feature-description">{feature.description}</p>
               </div>
             </div>
           </div>

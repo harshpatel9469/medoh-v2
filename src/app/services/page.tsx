@@ -6,6 +6,7 @@ import TrustedPartners from "./TrustedPartners";
 import HowMedohWorks from "./HowMedohWorks";
 import PatientEducation from "./PatientEducation";
 import PartnerForm from "./PartnerForm";
+import SignUpForm from "../for-doctors/SignUpForm";
 
 export default function Page() {
   return (
@@ -15,7 +16,7 @@ export default function Page() {
       <HowMedohWorks />
       <TrustedPartners />
       <PatientEducation />
-      <PartnerForm />
+      <SignUpForm />
       <Footer />
     </>
   );

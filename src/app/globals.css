@@ -108,7 +108,7 @@ body {
 }
 
 .welcome-section {
-  height: 200px;
+  min-height: 200px;
   width: 100%;
   padding: 30px;
   position: relative;
@@ -136,6 +136,16 @@ body {
   position: absolute;
   top: 30px;
   right: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+  .welcome-button {
+    position: relative;
+    top: unset;
+    right: 0;
+    left: 0;
+    margin-top: 30px;
+  }
 }
 
 .faq-box {
@@ -186,6 +196,27 @@ body {
   background-position: center;
   border: 1px solid #eb874020;
   box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.animated-title .word-line,
+.animated-title p {
+  font-size: 44px !important;
+  font-weight: 600 !important;
+  color: #FA852F !important;
+}
+
+.animated-title .text {
+  height: 66px !important;
+  text-align: center;
+  margin: auto !important;
+}
+
+.direction-rtl .image-wrapper {
+  order: 1 !important;
+}
+
+.direction-rtl .p-0.m-0 {
+  order: 2;
 }
 
 .faq-main-container h1 {

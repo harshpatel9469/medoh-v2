@@ -1072,6 +1072,15 @@ h2.section-title {
     color: #FA852F;
 }
 
+.feature-card-main-box {
+
+
+    background-image: linear-gradient(223.4deg, #FF9E56 0%, #FFE0C9 50%, #FF9E56 100%);
+    border-radius: 13px;
+    transition: 0.5s;
+    padding: 1px;
+}
+
 .feature-card {
     position: relative;
     background: linear-gradient(223.4deg, #FF9E56 0%, #FFE0C9 50%, #FF9E56 100%);
@@ -1100,8 +1109,8 @@ h2.section-title {
     background: linear-gradient(319.22deg, #FFFFFF 0.01%, #FEEDE0 50%, #FFFFFF 99.99%);
 }
 
-.feature-card:hover {
-    transform: scale(1.1);
+.feature-card-main-box:hover {
+    transform: scale(1.03);
 
 }
 
@@ -1193,7 +1202,7 @@ h2.section-title {
 .signup-card {
     background: white;
     border: none;
-    border-radius: 16px;
+    border-radius: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
@@ -1241,7 +1250,7 @@ h2.section-title {
 
 .form-textarea {
     resize: vertical;
-    min-height: 120px;
+    min-height: 150px;
 }
 
 .signup-button {
@@ -1302,7 +1311,7 @@ h2.section-title {
     border: none;
     border-radius: 12px;
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.06);
-
+    padding: 40px 20px;
     transition: all 0.3s ease;
     height: 100%;
     text-align: center;

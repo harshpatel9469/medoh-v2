@@ -54,7 +54,7 @@
   background: linear-gradient(299.35deg, rgba(255, 236, 210, 0.2) 0%, rgba(252, 182, 159, 0.2) 99.99%);
   padding: 100px 30px;
   border-radius: 1rem;
-  box-shadow: 0 2px 16px 0 #0001;
+  /* box-shadow: 0 2px 16px 0 #0001; */
 }
 
 .partnersTitle {
@@ -109,8 +109,10 @@
   border: none;
   border-radius: 16px;
   background-color: #FFF7ED;
-  padding: 20px;
+  padding: 30px;
 }
+
+
 
 .comparisonCard:hover {}
 

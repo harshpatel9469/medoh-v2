@@ -13,7 +13,7 @@ export default function HowMedohWorks() {
         </h2>
 
         {/* Grid Wrapper */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
           {/* Left Column - Tall Card */}
           <div className="flex">
             <div className="flex flex-col h-full w-full rounded-2xl overflow-hidden bg-[#FFF7F2]">
@@ -40,7 +40,7 @@ export default function HowMedohWorks() {
           </div>
 
           {/* Right Column - 2 Rows (1 full, 1 split) */}
-          <div className="lg:col-span-2 flex flex-col gap-6">
+          <div className="lg:col-span-2 flex flex-col gap-7">
             {/* Top Row */}
             <div className="flex flex-col md:flex-row bg-[#FFF7F2] rounded-2xl overflow-hidden">
               <div className="w-full md:w-1/2 flex items-center">
@@ -66,7 +66,7 @@ export default function HowMedohWorks() {
             </div>
 
             {/* Bottom Row - Two Cards Side-by-Side */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
               {/* Card 1 */}
               <div className="bg-[#FFF7F2] rounded-2xl overflow-hidden flex flex-col text-center">
                 <div className="w-full">
@@ -81,7 +81,7 @@ export default function HowMedohWorks() {
                     Delivers Trusted, Doctor-Created Content
                   </h3>
                   <p className="text-[16px]">
-                   {`All of Medoh's content is created by real doctors. It can be
+                    {`All of Medoh's content is created by real doctors. It can be
                     tailored to match the specific physician the patient spoke
                     with, or selected from a trusted group of specialists. This
                     ensures the information is always accurate, relevant, and

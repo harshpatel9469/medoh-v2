@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import "../_components/components.css";
 
 const SignUpForm = () => {
-const router = useRouter()
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     location: "",
@@ -15,7 +15,7 @@ const router = useRouter()
     message: "",
   });
 
-  const handleChange = (e:any) => {
+  const handleChange = (e: any) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -23,7 +23,7 @@ const router = useRouter()
     }));
   };
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     // Handle form submission here
     console.log("Form submitted:", formData);
@@ -44,10 +44,10 @@ const router = useRouter()
               </p>
             </div>
 
-            <div className="signup-card bg-white rounded shadow">
-              <div className="p-10">
+            <div className="signup-card">
+              <div className="lg:p-[60px] md:p-10 p-7">
                 <form onSubmit={handleSubmit}>
-                  <div className="flex flex-wrap -mx-2 mb-4">
+                  <div className="flex flex-wrap -mx-2 mb-5">
                     <div className="w-full md:w-1/2 px-2 mb-3 md:mb-0">
                       <input
                         type="text"
@@ -70,7 +70,7 @@ const router = useRouter()
                     </div>
                   </div>
 
-                  <div className="flex flex-wrap -mx-2 mb-4">
+                  <div className="flex flex-wrap -mx-2 mb-5">
                     <div className="w-full md:w-1/2 px-2 mb-3 md:mb-0">
                       <input
                         type="text"
@@ -93,7 +93,7 @@ const router = useRouter()
                     </div>
                   </div>
 
-                  <div className="mb-4">
+                  <div className="mb-5">
                     <textarea
                       rows={4}
                       name="message"
@@ -104,8 +104,12 @@ const router = useRouter()
                     />
                   </div>
 
-                  <div className="text-center">
-                    <button type="submit" className="orange-button mx-auto" onClick={()=>router.push("/auth/signup")}>
+                  <div className="">
+                    <button
+                      type="submit"
+                      className="orange-button "
+                      onClick={() => router.push("/auth/signup")}
+                    >
                       <span>SIGN UP</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
