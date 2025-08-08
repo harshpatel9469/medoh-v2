@@ -629,7 +629,7 @@ h2.section-title {
     background: #fff5f0;
     padding: 53px;
     border-radius: 12px;
-    min-height: 260px;
+    min-height: 350px;
     transition: 0.3s ease;
     display: flex;
     flex-direction: column;
