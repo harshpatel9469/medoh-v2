@@ -32,10 +32,10 @@ const data = [
 ];
 
 const Build = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <section className="build-section">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto px-4">
         <div className="flex-row grid-cols-3 mb-5">
           <div className="col-span-3">
             <h2 className="title">
@@ -47,11 +47,11 @@ const Build = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className={`grid grid-cols-2 items-center bg-gray sticky-top  ${
+            className={`grid md:grid-cols-2 items-center bg-gray sticky-top  ${
               item.reverse ? "direction-rtl my-5 " : ""
             }`}
-            onClick={()=>{
-              router.push(item.page)
+            onClick={() => {
+              router.push(item.page);
             }}
           >
             <div className="p-0 m-0 w-50">

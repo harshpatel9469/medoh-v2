@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./components.css";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
@@ -21,8 +20,8 @@ const Footer = () => {
 
   return (
     <footer className="footer-main pt-12">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-5 ">
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 lg:gap-24 md:gap-6">
           <div className="col-span-2">
             <p>
               At Medoh, we provide precise and reliable answers to all your

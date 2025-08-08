@@ -46,7 +46,8 @@ const TestimonialsSection = () => {
     autoplaySpeed: 4000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    beforeChange: (oldIndex:number, newIndex:number) => setCurrentSlide(newIndex),
+    beforeChange: (oldIndex: number, newIndex: number) =>
+      setCurrentSlide(newIndex),
     responsive: [
       {
         breakpoint: 768,
@@ -85,7 +86,7 @@ const TestimonialsSection = () => {
           return (
             <div key={index}>
               <div
-                className={`testimonial-card slick-slide-content ${
+                className={`testimonial-card slick-slide-content  ${
                   isMiddle ? "highlight-card" : ""
                 }`}
               >

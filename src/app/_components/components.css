@@ -476,6 +476,7 @@ h2.section-title {
     background: linear-gradient(299.35deg, rgba(255, 236, 210, 0.2) 0%, rgba(252, 182, 159, 0.2) 99.99%);
     padding: 100px 30px;
     border-radius: 45px;
+    overflow: hidden;
 }
 
 .section-title {
@@ -527,7 +528,8 @@ h2.section-title {
     height: 280px;
     object-fit: cover;
     border-top-left-radius: 12px;
-
+    position: relative;
+    overflow: hidden;
 }
 
 .doctor-img img {
@@ -562,7 +564,7 @@ h2.section-title {
     display: block;
 }
 
-/* 
+
 .doctor-img::after {
     content: "";
     height: 100px;
@@ -572,7 +574,7 @@ h2.section-title {
     bottom: 0;
     left: 0;
     z-index: 999;
-} */
+}
 
 .doctor-card:hover img {
     transform: scale(1.1);
@@ -625,11 +627,15 @@ h2.section-title {
     padding: 100px 30px;
 }
 
+.testimonial-section .slick-track {
+    align-items: center;
+}
+
 .testimonial-card {
     background: #fff5f0;
     padding: 53px;
     border-radius: 12px;
-    min-height: 350px;
+    min-height: 400px;
     transition: 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -640,7 +646,8 @@ h2.section-title {
 .testimonial-card.highlight-card {
     background: #ff792d;
     color: white;
-    border: 1.06px solid rgba(0, 0, 0, 0.1)
+    border: 1.06px solid rgba(0, 0, 0, 0.1);
+    height: 420px;
 }
 
 .testimonial-card .stars svg {
@@ -1360,6 +1367,10 @@ h2.section-title {
     .hero-main h1 {
         font-size: 35px !important;
     }
+
+    .build-text {
+        padding: 30px;
+    }
 }
 
 .responsive-menu {
@@ -1443,7 +1454,7 @@ input:focus {
 /* Custom Swiper Navigation Styles */
 .doctor-swiper-container {
     position: relative;
-    padding: 0 60px;
+    overflow: visible;
 }
 
 .swiper-button-prev-custom,
@@ -1485,6 +1496,11 @@ input:focus {
 .swiper-button-next-custom svg {
     width: 20px;
     height: 20px;
+}
+
+.doctors-swiper {
+    overflow: visible !important;
+    /* overflow-x: hidden; */
 }
 
 .doctors-swiper {

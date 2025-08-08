@@ -14,12 +14,12 @@ export const PatientsHero = () => {
     if (e.key === "Enter" && searchValue.trim()) {
       const query = encodeURIComponent(searchValue.trim());
       router.push(`/dashboard/search?q=${query}`);
-    }  
+    }
   };
 
   return (
     <div className="hero-main">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-center">
           <div className="w-full md:w-full lg:w-10/12 text-center">
             <h1>
@@ -62,7 +62,7 @@ export const PatientsHero = () => {
                     ]}
                   />
                 </div>
-              )} 
+              )}
               <div>
                 <IoSearch className="search-icon" />
               </div>

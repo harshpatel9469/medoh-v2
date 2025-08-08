@@ -55,7 +55,7 @@ const PopularTopics = (props: PopularTopicsProps) => {
 
   return (
     <section className="popular-topics-section">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto px-4">
         <h2 className="section-title text-center !mb-0">
           Top <span className="highlight">Doctors</span>. Straight{" "}
           <span className="highlight">Answers</span>. One{" "}
@@ -82,7 +82,7 @@ const PopularTopics = (props: PopularTopicsProps) => {
         </div>
 
         {/* Topic Cards */}
-        <div className="gy-4 gap-3 grid grid-cols-3">
+        <div className="gy-4 gap-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {relevantTopics?.length > 0 &&
             relevantTopics.slice(0, 6).map((topic: Topic, index: number) => (
               <div

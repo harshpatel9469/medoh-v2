@@ -6,7 +6,7 @@ import Link from "next/link";
 const CTASection = () => {
   return (
     <section className="cta-section">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto px-4">
         <div className="cta-content">
           <h2>Start Getting Answers Today</h2>
           <p>
