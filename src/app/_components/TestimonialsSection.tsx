@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
     autoplaySpeed: 4000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
+    beforeChange: (oldIndex:number, newIndex:number) => setCurrentSlide(newIndex),
     responsive: [
       {
         breakpoint: 768,
