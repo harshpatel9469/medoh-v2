@@ -16,7 +16,7 @@ const DoctorSlider = () => {
     <div className="doctor-slider-wrapper">
       <div className="doctor-slider-wrapper-main overflow-hidden relative py-4">
         <div className="doctor-marquee whitespace-nowrap flex animate-marquee">
-          {[...slides, ...slides].map((item, index) => (
+          {[...slides, ...slides].map((item:any, index:number) => (
             <div
               key={index}
               className="DoctorSliderImageBox min-w-[180px] mx-4 flex-shrink-0 text-center"

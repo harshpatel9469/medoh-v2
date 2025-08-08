@@ -48,7 +48,7 @@ const HowMedohWorksDR = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-        {features.map((feature) => (
+        {features.map((feature:any) => (
           <div key={feature.id}>
             <div className="feature-card h-full">
               <div className="text-center p-0">

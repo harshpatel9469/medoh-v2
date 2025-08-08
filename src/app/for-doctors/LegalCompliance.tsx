@@ -34,7 +34,7 @@ const LegalCompliance = () => {
       </div>
 
       <div className="flex flex-wrap gap-y-3 -mx-2">
-        {legalItems.map((item) => (
+        {legalItems.map((item:any) => (
           <div key={item.id} className="w-full md:w-1/3 px-2">
             <div className="legal-card h-full bg-white rounded shadow">
               <div className="p-4">

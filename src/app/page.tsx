@@ -90,8 +90,8 @@ export default function Home() {
     if (healthConcerns.length === 0) {
       return topics;
     }
-    return topics.filter((topic) =>
-      healthConcerns.some((concern) => {
+    return topics.filter((topic: any) =>
+      healthConcerns.some((concern: any) => {
         const concernLower = concern.toLowerCase();
         const topicNameLower = topic.name.toLowerCase();
         // Only show topics that exactly match the user's selected health concerns

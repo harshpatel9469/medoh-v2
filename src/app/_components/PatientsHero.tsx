@@ -40,9 +40,9 @@ export const PatientsHero = () => {
                 type="text"
                 className="search-input"
                 value={searchValue}
-                onChange={(e) => setSearchValue(e.target.value)}
+                onChange={(e: any) => setSearchValue(e.target.value)}
                 onFocus={() => setIsFocused(true)}
-                onBlur={(e) => {
+                onBlur={(e: any) => {
                   if (e.target.value === "") setIsFocused(false);
                 }}
                 onKeyPress={handleKeyPress}

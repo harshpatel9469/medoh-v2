@@ -30,7 +30,7 @@ const Footer = () => {
               healthcare professionals through easy-to-understand videos.
             </p>
             <div className="flex gap-3 items-center mt-3">
-              {socialIcons.map((item, index) => (
+              {socialIcons.map((item: any, index: any) => (
                 <Link
                   key={index}
                   href={item.href}
@@ -46,7 +46,7 @@ const Footer = () => {
           <div>
             <h5 className="mb-4">Quick Links</h5>
             <ul className="list-unstyled flex flex-col gap-2">
-              {quickLinks.map((link, index) => (
+              {quickLinks.map((link: any, index: any) => (
                 <li key={index}>
                   <Link href={link.href} className="footer-links">
                     {link.label}

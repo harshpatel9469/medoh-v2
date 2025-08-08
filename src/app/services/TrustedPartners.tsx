@@ -18,7 +18,7 @@ const partnerLogos = [
   { src: "/l-6.png", alt: "Arthrex" },
 ];
 
-function getFullSlides(logos, logosPerSlide) {
+function getFullSlides(logos: any, logosPerSlide: any) {
   const minSlides = Math.ceil(logos.length / logosPerSlide);
   const needed = minSlides * logosPerSlide;
   const filled = [...logos];
@@ -61,12 +61,12 @@ export default function TrustedPartners() {
           <div
             className={`${styles.partnerCarousel} flex transition-all duration-500 animate-slide`}
           >
-            {slides.map((group, idx) => (
+            {slides.map((group: any, idx: any) => (
               <div
                 key={idx}
                 className="min-w-full flex justify-center gap-6 py-4"
               >
-                {group.map((logo, i) => (
+                {group.map((logo: any, i: any) => (
                   <div key={logo.alt + i} className={styles.logoWrapper}>
                     <Image
                       src={logo.src}

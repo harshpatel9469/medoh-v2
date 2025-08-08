@@ -43,7 +43,7 @@ const PatientEducation = () => {
             <h3 className={styles.sectionTitle}>medoh</h3>
 
             <div className={`${styles.benefitsList} mt-6`}>
-              {medohBenefits.map((benefit, index) => (
+              {medohBenefits.map((benefit: any, index: any) => (
                 <div key={index} className="flex items-start gap-3">
                   <Image
                     src="/thumbright.png"
@@ -74,7 +74,7 @@ const PatientEducation = () => {
             <h3 className={styles.sectionTitle}>Traditional Education</h3>
 
             <div className={`${styles.drawbacksList} mt-6`}>
-              {traditionalDrawbacks.map((drawback, index) => (
+              {traditionalDrawbacks.map((drawback: any, index: any) => (
                 <div key={index} className="flex items-start gap-3">
                   <BsXLg className={styles.benefitIcon} />
                   <span className={styles.drawbackText}>{drawback.text}</span>
