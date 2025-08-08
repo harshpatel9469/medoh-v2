@@ -15,11 +15,11 @@ const DoctorsHero = () => {
         </h1>
 
         <p className="hero-description text-center lg:text-left">
-          Today's patients are searching online before and after visits. Medoh
+          {`Today's patients are searching online before and after visits. Medoh
           Health empowers you, the physician, to lead that conversation with
           trusted, accurate, and personalized content. Build your digital voice
           and make a lasting impact on your patients' understanding and
-          well-being.
+          well-being.`}
         </p>
 
         {/* <Link href="/partner" passHref> */}

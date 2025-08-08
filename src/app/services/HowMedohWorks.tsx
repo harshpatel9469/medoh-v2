@@ -46,7 +46,7 @@ export default function HowMedohWorks() {
               <div className="w-full md:w-1/2 flex items-center">
                 <div className="p-6">
                   <h3 className="text-[22px] font-semibold text-[#FA852F] mb-5">
-                    Educates Patients After They Leave the Doctor's Office
+                    {`Educates Patients After They Leave the Doctor's Office`}
                   </h3>
                   <p className="text-[16px]">
                     After a consultation, patients often forget or misunderstand
@@ -81,11 +81,11 @@ export default function HowMedohWorks() {
                     Delivers Trusted, Doctor-Created Content
                   </h3>
                   <p className="text-[16px]">
-                    All of Medoh's content is created by real doctors. It can be
+                   {`All of Medoh's content is created by real doctors. It can be
                     tailored to match the specific physician the patient spoke
                     with, or selected from a trusted group of specialists. This
                     ensures the information is always accurate, relevant, and
-                    trustworthy.
+                    trustworthy.`}
                   </p>
                 </div>
               </div>
