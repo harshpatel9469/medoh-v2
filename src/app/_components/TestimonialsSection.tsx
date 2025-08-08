@@ -94,7 +94,7 @@ const TestimonialsSection = () => {
                     <FaStar key={i} color={isMiddle ? "#FFF" : "#FFA500"} />
                   ))}
                 </div>
-                <p className="quote m-0">{`"{item.quote}"`}</p>
+                <p className="quote m-0">{`${item.quote}`}</p>
                 <p className="name mb-0">
                   <strong>{item.name}</strong>
                 </p>
