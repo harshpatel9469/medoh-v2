@@ -227,7 +227,6 @@ function DetailedTopic({ params: { id } }: any) {
                   <span className="text-xl font-semibold">{section.name}</span>
                   <ArrowRightIcon className="w-5 h-7" aria-hidden="true" />
                 </Link>
-                {console.log(videos, "sjkghsdghksdgsdh")}
                 <div className="flex flex-row flex-nowrap overflow-x-auto gap-4">
                   {videos.get(section.id)?.map((sectionVideo, index) => (
                     <VideoCard
