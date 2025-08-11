@@ -13,6 +13,7 @@ interface VideoCardProps {
     thumbnailUrl: string,
     progression?: number | null,
     videoId?: string
+    onRefresh?:any;
 }
 
 export default function ExpandedVideoCards({questionId, name, thumbnailUrl, progression, videoId} : VideoCardProps) {
